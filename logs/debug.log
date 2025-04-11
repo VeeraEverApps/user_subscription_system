@@ -1,0 +1,379 @@
+2025-04-04 16:02:35 notice: Undefined property `PlansController::$Authorization` in `/Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/src/Controller/PlansController.php` on line 10
+Request URL: /
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+/Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Controller/Controller.php /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Controller/Controller.php, line 313
+Cake\Controller\Controller->__get() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/src/Controller/PlansController.php, line 10
+App\Controller\PlansController->index() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Controller/Controller.php, line 505
+Cake\Controller\Controller->invokeAction() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Runner->handle() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php, line 106
+Authentication\Middleware\AuthenticationMiddleware->process() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Http/Runner.php, line 60
+Cake\Http\Runner->run() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Http/Server.php, line 104
+Cake\Http\Server->run() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/webroot/index.php, line 37
+[main]
+
+2025-04-04 16:03:05 notice: Undefined property `PlansController::$Authorization` in `/Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/src/Controller/PlansController.php` on line 10
+Request URL: /
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+/Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Controller/Controller.php /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Controller/Controller.php, line 313
+Cake\Controller\Controller->__get() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/src/Controller/PlansController.php, line 10
+App\Controller\PlansController->index() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Controller/Controller.php, line 505
+Cake\Controller\Controller->invokeAction() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 166
+Cake\Controller\ControllerFactory->handle() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Runner->handle() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php, line 106
+Authentication\Middleware\AuthenticationMiddleware->process() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Http/Runner.php, line 60
+Cake\Http\Runner->run() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Http/Server.php, line 104
+Cake\Http\Server->run() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/webroot/index.php, line 37
+[main]
+
+2025-04-04 16:18:55 notice: Undefined property `UsersController::$Authentication` in `/Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/src/Controller/UsersController.php` on line 18
+Request URL: /users/register?plan_id=2
+Referer URL: http://localhost:8765/
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+/Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Controller/Controller.php /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Controller/Controller.php, line 313
+Cake\Controller\Controller->__get() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/src/Controller/UsersController.php, line 18
+App\Controller\UsersController->beforeFilter() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Event/EventManager.php, line 334
+Cake\Event\EventManager->_callListener() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Event/EventManager.php, line 312
+Cake\Event\EventManager->dispatch() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php, line 88
+Cake\Controller\Controller->dispatchEvent() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Controller/Controller.php, line 604
+Cake\Controller\Controller->startupProcess() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 156
+Cake\Controller\ControllerFactory->handle() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Runner->handle() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php, line 106
+Authentication\Middleware\AuthenticationMiddleware->process() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Http/Runner.php, line 60
+Cake\Http\Runner->run() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Http/Server.php, line 104
+Cake\Http\Server->run() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/webroot/index.php, line 37
+[main]
+
+2025-04-04 17:05:32 notice: Undefined property `AuthController::$Authentication` in `/Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/src/Controller/AuthController.php` on line 19
+Request URL: /auth/check
+Referer URL: http://localhost:8765/
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+/Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Controller/Controller.php /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Controller/Controller.php, line 313
+Cake\Controller\Controller->__get() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/src/Controller/AuthController.php, line 19
+App\Controller\AuthController->beforeFilter() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Event/EventManager.php, line 334
+Cake\Event\EventManager->_callListener() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Event/EventManager.php, line 312
+Cake\Event\EventManager->dispatch() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php, line 88
+Cake\Controller\Controller->dispatchEvent() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Controller/Controller.php, line 604
+Cake\Controller\Controller->startupProcess() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 156
+Cake\Controller\ControllerFactory->handle() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Runner->handle() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php, line 106
+Authentication\Middleware\AuthenticationMiddleware->process() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Http/Runner.php, line 60
+Cake\Http\Runner->run() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Http/Server.php, line 104
+Cake\Http\Server->run() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/webroot/index.php, line 37
+[main]
+
+2025-04-04 18:27:58 notice: Undefined property `AuthController::$Authentication` in `/Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/src/Controller/AuthController.php` on line 19
+Request URL: /auth/check
+Referer URL: http://localhost:8765/
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+/Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Controller/Controller.php /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Controller/Controller.php, line 313
+Cake\Controller\Controller->__get() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/src/Controller/AuthController.php, line 19
+App\Controller\AuthController->beforeFilter() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Event/EventManager.php, line 334
+Cake\Event\EventManager->_callListener() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Event/EventManager.php, line 312
+Cake\Event\EventManager->dispatch() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php, line 88
+Cake\Controller\Controller->dispatchEvent() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Controller/Controller.php, line 604
+Cake\Controller\Controller->startupProcess() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 156
+Cake\Controller\ControllerFactory->handle() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Runner->handle() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php, line 106
+Authentication\Middleware\AuthenticationMiddleware->process() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Http/Runner.php, line 60
+Cake\Http\Runner->run() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Http/Server.php, line 104
+Cake\Http\Server->run() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/webroot/index.php, line 37
+[main]
+
+2025-04-04 18:42:46 notice: Undefined property `AuthController::$Authentication` in `/Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/src/Controller/AuthController.php` on line 19
+Request URL: /auth/check
+Referer URL: http://localhost:8765/
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+/Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Controller/Controller.php /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Controller/Controller.php, line 313
+Cake\Controller\Controller->__get() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/src/Controller/AuthController.php, line 19
+App\Controller\AuthController->beforeFilter() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Event/EventManager.php, line 334
+Cake\Event\EventManager->_callListener() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Event/EventManager.php, line 312
+Cake\Event\EventManager->dispatch() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php, line 88
+Cake\Controller\Controller->dispatchEvent() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Controller/Controller.php, line 604
+Cake\Controller\Controller->startupProcess() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 156
+Cake\Controller\ControllerFactory->handle() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Runner->handle() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php, line 106
+Authentication\Middleware\AuthenticationMiddleware->process() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Http/Runner.php, line 60
+Cake\Http\Runner->run() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Http/Server.php, line 104
+Cake\Http\Server->run() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/webroot/index.php, line 37
+[main]
+
+2025-04-04 19:23:44 notice: Undefined property `AuthController::$Authentication` in `/Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/src/Controller/AuthController.php` on line 19
+Request URL: /auth/check
+Referer URL: http://localhost:8765/
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+/Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Controller/Controller.php /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Controller/Controller.php, line 313
+Cake\Controller\Controller->__get() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/src/Controller/AuthController.php, line 19
+App\Controller\AuthController->beforeFilter() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Event/EventManager.php, line 334
+Cake\Event\EventManager->_callListener() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Event/EventManager.php, line 312
+Cake\Event\EventManager->dispatch() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php, line 88
+Cake\Controller\Controller->dispatchEvent() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Controller/Controller.php, line 604
+Cake\Controller\Controller->startupProcess() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 156
+Cake\Controller\ControllerFactory->handle() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Runner->handle() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php, line 106
+Authentication\Middleware\AuthenticationMiddleware->process() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Http/Runner.php, line 60
+Cake\Http\Runner->run() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Http/Server.php, line 104
+Cake\Http\Server->run() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/webroot/index.php, line 37
+[main]
+
+2025-04-04 19:23:56 notice: Undefined property `UsersController::$Authentication` in `/Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/src/Controller/UsersController.php` on line 30
+Request URL: /users/register?plan_id=2&redirect=%2Fdashboard
+Referer URL: http://localhost:8765/
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+/Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Controller/Controller.php /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Controller/Controller.php, line 313
+Cake\Controller\Controller->__get() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/src/Controller/UsersController.php, line 30
+App\Controller\UsersController->beforeFilter() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Event/EventManager.php, line 334
+Cake\Event\EventManager->_callListener() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Event/EventManager.php, line 312
+Cake\Event\EventManager->dispatch() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php, line 88
+Cake\Controller\Controller->dispatchEvent() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Controller/Controller.php, line 604
+Cake\Controller\Controller->startupProcess() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 156
+Cake\Controller\ControllerFactory->handle() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Runner->handle() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php, line 106
+Authentication\Middleware\AuthenticationMiddleware->process() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Http/Runner.php, line 60
+Cake\Http\Runner->run() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Http/Server.php, line 104
+Cake\Http\Server->run() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/webroot/index.php, line 37
+[main]
+
+2025-04-04 19:24:52 notice: Undefined property `UsersController::$Authentication` in `/Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/src/Controller/UsersController.php` on line 36
+Request URL: /users/register?plan_id=2&redirect=%2Fdashboard
+Referer URL: http://localhost:8765/
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+/Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Controller/Controller.php /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Controller/Controller.php, line 313
+Cake\Controller\Controller->__get() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/src/Controller/UsersController.php, line 36
+App\Controller\UsersController->beforeFilter() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Event/EventManager.php, line 334
+Cake\Event\EventManager->_callListener() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Event/EventManager.php, line 312
+Cake\Event\EventManager->dispatch() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php, line 88
+Cake\Controller\Controller->dispatchEvent() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Controller/Controller.php, line 604
+Cake\Controller\Controller->startupProcess() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 156
+Cake\Controller\ControllerFactory->handle() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Runner->handle() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php, line 106
+Authentication\Middleware\AuthenticationMiddleware->process() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Http/Runner.php, line 60
+Cake\Http\Runner->run() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Http/Server.php, line 104
+Cake\Http\Server->run() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/webroot/index.php, line 37
+[main]
+
+2025-04-04 19:33:35 notice: Undefined property `AuthController::$Authentication` in `/Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/src/Controller/AuthController.php` on line 19
+Request URL: /auth/check
+Referer URL: http://localhost:8765/
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+/Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Controller/Controller.php /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Controller/Controller.php, line 313
+Cake\Controller\Controller->__get() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/src/Controller/AuthController.php, line 19
+App\Controller\AuthController->beforeFilter() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Event/EventManager.php, line 334
+Cake\Event\EventManager->_callListener() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Event/EventManager.php, line 312
+Cake\Event\EventManager->dispatch() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php, line 88
+Cake\Controller\Controller->dispatchEvent() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Controller/Controller.php, line 604
+Cake\Controller\Controller->startupProcess() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 156
+Cake\Controller\ControllerFactory->handle() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Runner->handle() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php, line 106
+Authentication\Middleware\AuthenticationMiddleware->process() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Http/Runner.php, line 60
+Cake\Http\Runner->run() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Http/Server.php, line 104
+Cake\Http\Server->run() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/webroot/index.php, line 37
+[main]
+
+2025-04-04 19:54:00 notice: Undefined property `UsersController::$Authentication` in `/Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/src/Controller/UsersController.php` on line 29
+Request URL: /users/register?plan_id=2
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+/Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Controller/Controller.php /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Controller/Controller.php, line 313
+Cake\Controller\Controller->__get() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/src/Controller/UsersController.php, line 29
+App\Controller\UsersController->beforeFilter() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Event/EventManager.php, line 334
+Cake\Event\EventManager->_callListener() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Event/EventManager.php, line 312
+Cake\Event\EventManager->dispatch() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php, line 88
+Cake\Controller\Controller->dispatchEvent() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Controller/Controller.php, line 604
+Cake\Controller\Controller->startupProcess() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 156
+Cake\Controller\ControllerFactory->handle() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Runner->handle() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Http/Runner.php, line 60
+Cake\Http\Runner->run() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Http/Server.php, line 104
+Cake\Http\Server->run() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/webroot/index.php, line 37
+[main]
+
+2025-04-04 20:05:17 notice: Undefined property `AuthController::$Authentication` in `/Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/src/Controller/AuthController.php` on line 19
+Request URL: /auth/check
+Referer URL: http://localhost:8765/
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+/Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Controller/Controller.php /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Controller/Controller.php, line 313
+Cake\Controller\Controller->__get() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/src/Controller/AuthController.php, line 19
+App\Controller\AuthController->beforeFilter() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Event/EventManager.php, line 334
+Cake\Event\EventManager->_callListener() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Event/EventManager.php, line 312
+Cake\Event\EventManager->dispatch() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php, line 88
+Cake\Controller\Controller->dispatchEvent() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Controller/Controller.php, line 604
+Cake\Controller\Controller->startupProcess() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 156
+Cake\Controller\ControllerFactory->handle() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Runner->handle() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php, line 106
+Authentication\Middleware\AuthenticationMiddleware->process() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Http/Runner.php, line 60
+Cake\Http\Runner->run() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Http/Server.php, line 104
+Cake\Http\Server->run() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/webroot/index.php, line 37
+[main]
+
+2025-04-04 20:10:36 notice: Undefined property `AuthController::$Authentication` in `/Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/src/Controller/AuthController.php` on line 19
+Request URL: /auth/check
+Referer URL: http://localhost:8765/
+Trace:
+Cake\Error\ErrorTrap->handleError() [internal], line ??
+/Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Controller/Controller.php /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Controller/Controller.php, line 313
+Cake\Controller\Controller->__get() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/src/Controller/AuthController.php, line 19
+App\Controller\AuthController->beforeFilter() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Event/EventManager.php, line 334
+Cake\Event\EventManager->_callListener() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Event/EventManager.php, line 312
+Cake\Event\EventManager->dispatch() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php, line 88
+Cake\Controller\Controller->dispatchEvent() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Controller/Controller.php, line 604
+Cake\Controller\Controller->startupProcess() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 156
+Cake\Controller\ControllerFactory->handle() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 141
+Cake\Controller\ControllerFactory->invoke() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 362
+Cake\Http\BaseApplication->handle() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Runner->handle() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php, line 106
+Authentication\Middleware\AuthenticationMiddleware->process() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Http/Runner.php, line 60
+Cake\Http\Runner->run() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Http/Server.php, line 104
+Cake\Http\Server->run() /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/webroot/index.php, line 37
+[main]
+

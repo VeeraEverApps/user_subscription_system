@@ -1,0 +1,103 @@
+2025-04-04 15:35:46 error: [Cake\Core\Exception\MissingPluginException] Plugin `Authentication` could not be found. in /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Core/PluginCollection.php on line 160
+Exception Attributes: array (
+  'plugin' => 'Authentication',
+)
+Stack Trace:
+- CORE/src/Core/PluginCollection.php:288
+- CORE/src/Http/BaseApplication.php:142
+- APP/Application.php:51
+- CORE/src/Console/CommandRunner.php:190
+- CORE/src/Console/CommandRunner.php:137
+- ROOT/bin/cake.php:10
+- [main]:
+
+2025-04-04 15:37:29 error: [Cake\Core\Exception\MissingPluginException] Plugin `Cake/JwtAuth` could not be found. in /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Core/PluginCollection.php on line 160
+Exception Attributes: array (
+  'plugin' => 'Cake/JwtAuth',
+)
+Stack Trace:
+- CORE/src/Core/PluginCollection.php:288
+- CORE/src/Http/BaseApplication.php:142
+- APP/Application.php:57
+- CORE/src/Console/CommandRunner.php:190
+- CORE/src/Console/CommandRunner.php:137
+- ROOT/bin/cake.php:10
+- [main]:
+
+2025-04-04 15:41:43 error: [Cake\Core\Exception\MissingPluginException] Plugin `Cake/JwtAuth` could not be found. in /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Core/PluginCollection.php on line 160
+Exception Attributes: array (
+  'plugin' => 'Cake/JwtAuth',
+)
+Stack Trace:
+- CORE/src/Core/PluginCollection.php:288
+- CORE/src/Http/BaseApplication.php:142
+- APP/Application.php:57
+- CORE/src/Console/CommandRunner.php:190
+- CORE/src/Console/CommandRunner.php:137
+- ROOT/bin/cake.php:10
+- [main]:
+
+2025-04-04 15:48:11 error: [Cake\Core\Exception\CakeException] Plugin named `Migrations` is already loaded in /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Core/PluginCollection.php on line 175
+Stack Trace:
+- CORE/src/Http/BaseApplication.php:146
+- APP/Application.php:57
+- CORE/src/Console/CommandRunner.php:190
+- CORE/src/Console/CommandRunner.php:137
+- ROOT/bin/cake.php:10
+- [main]:
+
+2025-04-04 15:50:35 error: [Cake\Core\Exception\CakeException] Plugin named `Migrations` is already loaded in /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Core/PluginCollection.php on line 175
+Stack Trace:
+- CORE/src/Http/BaseApplication.php:146
+- APP/Application.php:57
+- CORE/src/Console/CommandRunner.php:190
+- CORE/src/Console/CommandRunner.php:137
+- ROOT/bin/cake.php:10
+- [main]:
+
+2025-04-04 15:52:35 error: [Cake\Core\Exception\CakeException] Plugin named `Migrations` is already loaded in /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Core/PluginCollection.php on line 175
+Stack Trace:
+- CORE/src/Http/BaseApplication.php:146
+- APP/Application.php:60
+- CORE/src/Console/CommandRunner.php:190
+- CORE/src/Console/CommandRunner.php:137
+- ROOT/bin/cake.php:10
+- [main]:
+
+2025-04-04 15:52:36 error: [Cake\Core\Exception\CakeException] Plugin named `Migrations` is already loaded in /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Core/PluginCollection.php on line 175
+Stack Trace:
+- CORE/src/Http/BaseApplication.php:146
+- APP/Application.php:60
+- CORE/src/Console/CommandRunner.php:190
+- CORE/src/Console/CommandRunner.php:137
+- ROOT/bin/cake.php:10
+- [main]:
+
+2025-04-04 15:55:55 error: [Cake\Core\Exception\CakeException] Plugin named `Migrations` is already loaded in /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Core/PluginCollection.php on line 175
+Stack Trace:
+- CORE/src/Http/BaseApplication.php:146
+- APP/Application.php:29
+- CORE/src/Console/CommandRunner.php:190
+- CORE/src/Console/CommandRunner.php:137
+- ROOT/bin/cake.php:10
+- [main]:
+
+2025-04-04 17:22:36 error: [Error] Call to undefined method Cake\Routing\Route\DashedRoute::setName() in /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/config/routes.php on line 11
+Stack Trace:
+- CORE/src/Routing/RouteBuilder.php:941
+- ROOT/config/routes.php:8
+- CORE/src/Http/BaseApplication.php:219
+- CORE/src/Console/CommandRunner.php:371
+- CORE/src/Console/CommandRunner.php:151
+- ROOT/bin/cake.php:10
+- [main]:
+
+2025-04-04 21:09:15 error: [Cake\Core\Exception\CakeException] Plugin named `Authentication` is already loaded in /Applications/XAMPP/xamppfiles/htdocs/user_subscription_system/vendor/cakephp/cakephp/src/Core/PluginCollection.php on line 175
+Stack Trace:
+- CORE/src/Http/BaseApplication.php:146
+- APP/Application.php:23
+- CORE/src/Console/CommandRunner.php:190
+- CORE/src/Console/CommandRunner.php:137
+- ROOT/bin/cake.php:10
+- [main]:
+
